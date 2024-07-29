@@ -1,0 +1,11 @@
+.intro h3 {
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: white;
+    background-color: red;
+    font-size: 19px;
+}
+.intro p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

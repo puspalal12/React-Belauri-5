@@ -1,0 +1,42 @@
+.neta {
+  background-color: red;
+}
+.neta h3 {
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: white;
+}
+.chairperson img {
+  width: 100%;
+
+  border: 2px solid navy;
+  border-radius: 50%;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+}
+.mayor {
+  width: 20%;
+}
+.netaname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.name {
+  text-align: center;
+}
+@media screen and (max-width:1045px){
+  .mayor{
+    width: 10%;
+  }
+}@media screen and (max-width:825px){
+  .name p{
+    font-size: 10px;
+  }
+}
+

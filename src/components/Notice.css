@@ -1,0 +1,41 @@
+.notice-head {
+  background-color: red;
+}
+.notice-head h3 {
+  color: white;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.notice-head a {
+  text-decoration: none;
+}
+.notice-item {
+  background-color: rgba(243, 243, 210, 0.799);
+}
+.notice-item ul {
+  padding: 1rem;
+}
+.notice-item li {
+  margin-bottom: 0.8rem;
+}
+.notice-item a {
+  text-decoration: none;
+  position: relative;
+}
+.notice-item a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 1;
+  content: "";
+  display: block;
+  height: 1.4px;
+  left: 50%;
+  position: absolute;
+  background: rgb(128, 0, 0);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.notice-item a:hover:after {
+  width: 100%;
+  left: 0;
+}

@@ -1,0 +1,38 @@
+.hero-image {
+  width: 100%;
+  background-color: rgba(226, 226, 219, 0.688);
+}
+.hero-text {
+  background-color: rgba(226, 226, 219, 0.688);
+  /* width: 100%; */
+  flex-basis: 650px;
+  /* margin-left: 5px; */
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:720px){
+  .hero{
+    flex-direction: column;
+  }
+  .hero-text{
+    flex-basis: 300px;
+  }
+}
+
+@media screen and (max-width:640px){
+  .hero-text{
+    flex-basis: 250px;
+  }
+
+}
+
+@media screen and (max-width:550px){
+  .hero-text{
+    flex-basis: 200px;
+  }
+
+}
+
